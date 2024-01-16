@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	:root {
+		--background: 0 0% 100%;
+		--foreground: 20 14.3% 4.1%;
+		--card: 0 0% 100%;
+		--card-foreground: 20 14.3% 4.1%;
+		--popover: 0 0% 100%;
+		--popover-foreground: 20 14.3% 4.1%;
+		--primary: 14 89% 63%; /* #FF6452 represented in HSL */
+		--primary-foreground: 0 0% 100%; /* White text for contrast */
+		--secondary: 34 89% 88%; /* A lighter, desaturated shade for secondary elements */
+		--secondary-foreground: 200 15% 20%; /* A dark blue for contrast on secondary elements */
+		--muted: 34 89% 88%; /* Same as secondary, for muted elements */
+		--muted-foreground: 200 15% 45%; /* Lighter blue for muted text */
+		--accent: 14 89% 80%; /* A lighter shade of the primary color for accents */
+		--accent-foreground: 200 15% 20%; /* Dark blue for accent text */
+		--destructive: 0 75% 50%; /* A dark red color for destructive actions */
+		--destructive-foreground: 60 9.1% 97.8%; /* Almost white for contrast */
+		--border: 14 30% 85%; /* Light border color that harmonizes with primary */
+		--input: 14 30% 85%; /* Input fields to match border color */
+		--ring: 14 89% 63%; /* Focus ring color same as primary */
+		--radius: 0.75rem;
+	}
+
+	.dark {
+		--background: 20 14.3% 4.1%;
+		--foreground: 60 9.1% 97.8%;
+		--card: 20 14.3% 4.1%;
+		--card-foreground: 60 9.1% 97.8%;
+		--popover: 20 14.3% 4.1%;
+		--popover-foreground: 60 9.1% 97.8%;
+		--primary: 14 89% 63%; /* #FF6452 represented in HSL for dark theme */
+		--primary-foreground: 0 0% 100%; /* White text for contrast */
+		--secondary: 14 30% 20%; /* Darker shade for secondary elements */
+		--secondary-foreground: 60 9.1% 97.8%; /* Almost white for readable contrast */
+		--muted: 14 30% 20%; /* Muted elements get a darker shade in dark mode */
+		--muted-foreground: 200 15% 65%; /* A lighter blue for readable contrast on muted elements */
+		--accent: 14 50% 30%; /* Darker and less saturated version of primary for accents */
+		--accent-foreground: 60 9.1% 97.8%; /* Almost white for accent text */
+		--destructive: 0 75% 40%; /* A slightly darker red for destructive actions in dark mode */
+		--destructive-foreground: 60 9.1% 97.8%; /* Almost white for readable contrast */
+		--border: 14 30% 25%;
+		--input: 14 30% 25%; /* Input fields to match border color */
+		--ring: 14 89% 63%; /* Focus ring color same as primary */
+		--radius: 0.75rem;
+	}
+}

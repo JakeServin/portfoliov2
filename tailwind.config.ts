@@ -7,7 +7,24 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			keyframes: {
+				wave: {
+					"0%, 40%, 100%": { transform: "rotate(10deg)" },
+					"15%": { transform: "rotate(-5deg)" },
+				},
+			},
+			animation: {
+				wave: "2s wave 1.2s ease-in-out infinite",
+			},
+			fontFamily: {
+				palanquin: ["Palanquin", "sans-serif"],
+				montserrat: ["Montserrat", "sans-serif"],
+			},
 			colors: {
+				"coral-red": "#FF6452",
+				"slate-gray": "#6D6D6D",
+				"pale-blue": "#F5F6FF",
+				"white-400": "rgba(255, 255, 255, 0.80)",
 				green: {
 					50: "#30AF5B",
 					90: "#292C27",
@@ -30,22 +47,7 @@ module.exports = {
 				},
 			},
 			backgroundImage: {
-				"bg-img-1": "url('/img-1.png')",
-				"bg-img-2": "url('/img-2.png')",
-				"feature-bg": "url('/feature-bg.png')",
-				pattern: "url('/pattern.png')",
-				"pattern-2": "url('/pattern-bg.png')",
-			},
-			screens: {
-				xs: "400px",
-				"3xl": "1680px",
-				"4xl": "2200px",
-			},
-			maxWidth: {
-				"10xl": "1512px",
-			},
-			borderRadius: {
-				"5xl": "40px",
+				"pattern-2": "url('/hero_bg.png')",
 			},
 		},
 	},

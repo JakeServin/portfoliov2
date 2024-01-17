@@ -19,8 +19,10 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en">
-			<body className={montserrat.className}>
+    <html lang="en">
+      
+      <body className={montserrat.className}>
+        <div id="home"/>
 				<Nav />
 				{children}
 				<Footer />

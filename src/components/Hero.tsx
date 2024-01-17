@@ -22,14 +22,14 @@ const Hero = () => {
   }, [])
   
   return (
-    <section className='container flex items-center justify-center'>
+    <section className='container flex flex-col-reverse sm:flex-row items-center justify-center sm:mt-10 mb-8 sm:mb-16'>
 
       {/* Left */}
-      <div className='w-1/3'>
-        <div className='font-bold text-4xl sm:text-5xl'>Hi, I'm Jake!</div>
-        <div className='mt-4 text-3xl'>I'm a <span className='text-accent' ref={typedRef} /></div>
+      <div className='w-full sm:w-1/3'>
+        <div className='text-gray-900 font-bold text-3xl text-center sm:text-left sm:text-5xl'>Hi, I'm Jake</div>
+        <div className='mt-4 text-2xl font-medium'>I'm a <span className='text-accent' ref={typedRef} /></div>
         <div className='mt-4'>
-          <Button className='rounded-full shadow'>Get in touch</Button>
+          <Button className='rounded-full shadow w-full sm:w-auto text-xl sm:text-lg'>Contact me</Button>
         </div>
       </div>
 

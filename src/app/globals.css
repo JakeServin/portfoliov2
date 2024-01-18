@@ -12,7 +12,7 @@
 		--popover-foreground: 20 14.3% 4.1%;
 		--primary: 14 89% 63%; /* #FF6452 represented in HSL */
 		--primary-foreground: 0 0% 100%; /* White text for contrast */
-		--secondary: 34 89% 88%; /* A lighter, desaturated shade for secondary elements */
+		--secondary: 34 89% 90%; /* A lighter, desaturated shade for secondary elements */
 		--secondary-foreground: 200 15% 20%; /* A dark blue for contrast on secondary elements */
 		--muted: 34 89% 88%; /* Same as secondary, for muted elements */
 		--muted-foreground: 200 15% 45%; /* Lighter blue for muted text */

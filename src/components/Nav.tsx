@@ -68,7 +68,7 @@ const Nav = () => {
 							</div>
 
 							<div className="sm:hidden">
-								<img src={link.icon} alt={link.name} height={6} width={6} className="h-6 w-6"/>
+								<Image src={link.icon} alt={link.name} height={6} width={6} className="h-6 w-6"/>
 							</div>
 						</a>
 					</li>

@@ -39,10 +39,11 @@ const Hero = () => {
 			{/* Left */}
 			<div className="w-full sm:w-1/3">
 				<div className="text-gray-900 text-center sm:text-left text-4xl md:text-5xl lg:text-6xl font-bold my-4">
-					Hi, I'm Jake
+					Hi, I&apos;m Jake
 				</div>
 				<div className="mt-4 text-2xl font-medium text-nowrap z-50">
-					I'm a <span className="text-accent z-50 *:z-50" ref={typedRef} />
+					I&apos;m a{" "}
+					<span className="text-accent z-50 *:z-50" ref={typedRef} />
 				</div>
 				<div className="mt-4 flex gap-2">
 					<Button

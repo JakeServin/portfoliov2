@@ -65,7 +65,7 @@ const Contact = () => {
 				onSubmit={handleSubmit(onSubmit)}
 			>
 				<div className="text-2xl font-semibold">
-					Let's work together
+					Let&apos;s work together
 				</div>
 				<div className="flex flex-col gap-2 mt-4 ">
 					<Input

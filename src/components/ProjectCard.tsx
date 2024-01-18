@@ -45,6 +45,7 @@ const ProjectCard = ({
 						{stackIcons &&
 							stackIcons.map((icon) => (
 								<Image
+									key={icon}
 									src={icon}
 									alt="icon"
 									width={40}

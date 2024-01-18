@@ -14,7 +14,11 @@ const About = () => {
 	}, []);
 
 	return (
-		<section ref={aboutRef} id="about" className="bg-secondary py-10 sm:py-20">
+		<section
+			ref={aboutRef}
+			id="about"
+			className="bg-secondary py-10 sm:py-20"
+		>
 			<div className="container flex flex-col md:flex-row items-center justify-center">
 				{/* Avatar LEFT */}
 				<div className="">
@@ -39,11 +43,11 @@ const About = () => {
 						with a passion for crafting exceptional web
 						applications. My journey in full-stack development has
 						honed my skills in planning, designing, and delivering
-						dynamic solutions. I'm dedicated to staying on the
+						dynamic solutions. I&apos;m dedicated to staying on the
 						cutting edge of current technologies, and I thrive in
 						collaborative environments where we can build efficient,
 						user-centric applications. Looking forward to
-						contributing to your team's success.
+						contributing to your team&apos;s success.
 					</p>
 				</div>
 			</div>

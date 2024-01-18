@@ -27,7 +27,9 @@ const Projects = () => {
 						<Carousel className="w-full z-0">
 							<CarouselContent className="base-1/2 items-center w-full">
 								{PROJECTS.map((project) => (
-									<CarouselItem className="w-full">
+									<CarouselItem className="w-full"
+										key={'carousel-item-' + project.title}
+									>
 										<ProjectCard
 											key={project.title}
 											{...project}

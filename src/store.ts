@@ -12,7 +12,7 @@ type Store = {
 		ref: MutableRefObject<HTMLElement | null>
 	) => void;
 };
-
+ 
 export const useStore = create<Store>()((set) => ({
   homeRef: null,
   aboutRef: null,

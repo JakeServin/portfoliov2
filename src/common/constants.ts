@@ -139,7 +139,7 @@ export const PROJECTS = [
 		repoUrl: "https://github.com/JakeServin/calmversation",
 	},
 	{
-		imageUrl: "/getaway_mockup.png",
+		imageUrl: "/getaway_mockup1.png",
 		title: "GetAway",
 		stackIcons: [
 			"/html.svg",
@@ -159,7 +159,7 @@ export const PROJECTS = [
 	},
 	{
 		basis: "1/2",
-		imageUrl: "/wordleclone_mockup.png",
+		imageUrl: "/wordleclone_mockup1.png",
 		portrait: true,
 		title: "Wordle Clone",
 		stackIcons: ["/html.svg", "/css.svg", "/javascript.svg"],

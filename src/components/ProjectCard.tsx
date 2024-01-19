@@ -129,7 +129,7 @@ const ProjectCard = ({
 			<div className="h-auto w-full md:w-auto object-cover rounded-xl flex justify-center items-center md:mr-5">
 				<Image
 					src={imageUrl}
-					alt="Hero"
+					alt={title + ' image'}
 					width={500}
 					height={400}
 					className={`${

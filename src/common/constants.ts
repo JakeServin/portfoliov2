@@ -111,9 +111,9 @@ export const PROJECTS = [
 			"/node.svg",
 			"/openai.svg",
 		],
-		stack: "HTML5 | CSS3 | JavaScript | React | Redux | Node.js | Express.js | MongoDB | GoogleMapsAPI",
+		stack: "HTML5 | CSS3 | TypeScript | React | Next.js | Zustand | Node.js | Express.js | supabase | OpenAI API",
 		description:
-			"Having to find a bathroom when you're out of town is never fun. GottaGo provides a searchable map for users to find and list local public bathrooms. When you've gotta go, you GottaGo!",
+			"Calmversation is an innovative chat application designed to offer users a reflective space for conversation and personal growth. Leveraging cutting-edge AI, Calmversation facilitates meaningful interactions, providing users with insights and support through an intuitive and engaging interface.",
 		demoUrl: "https://calmversation.vercel.app/",
 		repoUrl: "https://github.com/JakeServin/calmversation",
 	},

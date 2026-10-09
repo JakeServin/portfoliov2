@@ -10,8 +10,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 export const metadata: Metadata = {
-	title: "Jake Servin | Developer Portfolio",
-	description: "Jake Servin's developer portfolio",
+	title: "Jake Servin | Senior Software Engineer",
+	description: "Jake Servin: senior full-stack and iOS engineer. Primary engineer behind Simmy and Wasabi.",
 };
 
 export default function RootLayout({

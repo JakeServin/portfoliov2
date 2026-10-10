@@ -65,7 +65,7 @@ const CARTS = [
 		shot: "/simmy_screenshot.jpg",
 		shotAlt: "Simmy on the App Store: a story prompt turned into a generated scene",
 		genre: "AI interactive fiction. You describe a world, and Simmy turns it into an episodic, choice-driven story with generated chat, photos, video and narration.",
-		badges: [["4.8★", "5K+ ratings"], ["#3", "Books, US App Store"], ["12 days", "solo web port"]],
+		badges: [["4.8★", "5K+ ratings"], ["#3", "Books, US App Store"]],
 		built: [
 			"Most of the TypeScript/Prisma API: game engine, stories, characters and the in-app economy.",
 			"The multi-provider LLM and generative-media pipelines, with timeouts, fallbacks and automatic refunds.",
@@ -83,7 +83,7 @@ const CARTS = [
 		shot: "/wasabi_screenshot.jpg",
 		shotAlt: "Wasabi on the App Store: a Cards Against You round with friends",
 		genre: "A party game for your group chat, with an AI host that writes the prompts, judges the answers and runs the room out loud.",
-		badges: [["4.7★", "10K+ ratings"], ["Top 100", "Board & Card"], ["Live", "AI voice host"]],
+		badges: [["4.7★", "10K+ ratings"], ["Top 100", "Board & Card"]],
 		built: [
 			"The real-time multiplayer engine: lobbies, PIN join, ready-up, voting and disconnect recovery.",
 			"Bot players with human-like timing, so a public room is never empty.",

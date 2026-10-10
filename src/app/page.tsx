@@ -20,7 +20,7 @@ const PLAYERS: { id: PlayerId; sprite: string; name: string; mode: string; brief
 				"Primary engineer behind Simmy (4.8★, #3 in Books on the US App Store) and Wasabi (4.7★ from 10,000+ ratings).",
 				"Owns features end to end: TypeScript/Node APIs, native Swift iOS, React web, and the AI layer.",
 				"Shipped a full web port of an iOS game solo in 12 days.",
-				"Remote from Temecula, CA. Looking at senior web, iOS and full-stack roles.",
+				"Based in Los Angeles: open to hybrid in LA or remote. Looking at senior web, iOS and full-stack roles.",
 			],
 		},
 	},
@@ -152,20 +152,19 @@ const STATS = [
 ];
 
 const QUESTS = [
-	{ when: "Sep 2026", title: "Simmy Web: an empty repo to a full web game in 12 days", text: "Planned it in phases, built it solo, and shipped payments and analytics on the way out.", c: "var(--simmy)", now: true },
-	{ when: "Aug 2025", title: "Simmy", text: "AI interactive fiction for iOS. Reached #3 in Books on the US App Store.", c: "var(--simmy)" },
+	{ when: "Aug 2025", title: "Simmy", text: "AI interactive fiction for iOS and the web. Reached #3 in Books on the US App Store.", c: "var(--simmy)", now: true },
 	{ when: "Oct 2024", title: "Wasabi", text: "Real-time party games with an AI host. 4.7★ from 10,000+ ratings.", c: "var(--wasabi)" },
 	{ when: "Feb 2024", title: "Joined Maestro · TapTap Live", text: "Live trivia for college campuses. Started on the API and the game server, then moved into iOS.", c: "var(--taptap)" },
 	{ when: "Oct 2022", title: "EnspireMedia", text: "Full-stack developer on five B2B products for sawmills and field-service companies.", c: "var(--tools)" },
-	{ when: "2022", title: "Press start", text: "Took the DigitalCrafts full-stack program and went straight into my first engineering job.", c: "var(--gold)" },
+	{ when: "2022", title: "Press start", text: "Learned full-stack development and went straight into my first engineering job.", c: "var(--gold)" },
 ];
 
 const ACHIEVEMENTS = [
 	{ icon: "#3", title: "Top of the charts", text: "Simmy: #3 in Books, US App Store" },
 	{ icon: "★", title: "Crowd favorite", text: "15,000+ App Store ratings at 4.7–4.8★" },
-	{ icon: "12d", title: "Speedrunner", text: "A full web port of an iOS game, solo" },
+	{ icon: "4P", title: "Full lobby", text: "Real-time multiplayer with bots, so no room sits empty" },
 	{ icon: "✓", title: "Test pilot", text: "1,700+ API tests and ~1,400 on the web port" },
-	{ icon: "⇄", title: "Bookkeeper's friend", text: "Two-way QuickBooks sync from scratch" },
+	{ icon: "AI", title: "Model wrangler", text: "Four AI providers in production, routed by cost and quality" },
 	{ icon: "◎", title: "White hat", text: "Runs security reviews and fixes what turns up" },
 	{ icon: "3", title: "Hat trick", text: "Three consumer apps shipped in under three years" },
 	{ icon: "?", title: "Next: your team", text: "Locked. Unlocks when we talk.", locked: true },
@@ -250,7 +249,7 @@ export default function Home() {
 			<main id="top">
 				<section className="wrap hero">
 					<p className="hero-eyebrow px">
-						<span className="blink" aria-hidden="true" /> Senior web &amp; iOS engineer · Temecula, CA · Remote
+						<span className="blink" aria-hidden="true" /> Senior web &amp; iOS engineer · Los Angeles · Hybrid or remote
 					</p>
 					<h1>
 						I build <span className="g">games</span> people can&apos;t put down and <span className="t">tools</span> that make life easier.
@@ -392,7 +391,7 @@ export default function Home() {
 								<dt className="px">Level</dt>
 								<dd>4 years shipping</dd>
 								<dt className="px">Base</dt>
-								<dd>Temecula, CA · remote</dd>
+								<dd>Los Angeles · hybrid or remote</dd>
 								<dt className="px">Party</dt>
 								<dd>Small teams, big scope</dd>
 							</dl>

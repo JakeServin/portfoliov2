@@ -17,7 +17,7 @@ const PLAYERS: { id: PlayerId; sprite: string; name: string; mode: string; brief
 		brief: {
 			title: "Senior web + iOS engineer. Four years of shipping, three consumer apps live.",
 			points: [
-				"Primary engineer behind Simmy (4.8★, #3 in Books on the US App Store) and Wasabi (4.7★ from 10,000+ ratings).",
+				"Led the backend and built the web clients for Simmy (4.8★, #3 in Books on the US App Store) and Wasabi (4.7★ from 10,000+ ratings), and worked across the iOS apps.",
 				"Owns features end to end: TypeScript/Node APIs, native Swift iOS, React web, and the AI layer.",
 				"Shipped a full web port of an iOS game solo in 12 days.",
 				"Based in Los Angeles: open to hybrid in LA or remote. Looking at senior web, iOS and full-stack roles.",
@@ -256,7 +256,7 @@ export default function Home() {
 					</h1>
 					<p className="lede">
 						Four years of shipping, end to end: the API, the iOS app, the web client and the AI underneath. Most recently I&apos;ve
-						been the primary engineer behind Simmy and Wasabi, two AI games with a combined 15,000+ App Store ratings.
+						been a core engineer behind Simmy and Wasabi, two AI games with a combined 15,000+ App Store ratings: I led the backend and built the web apps.
 					</p>
 
 					<div className="select">

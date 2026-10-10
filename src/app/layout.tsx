@@ -7,6 +7,7 @@ const body = Figtree({ subsets: ["latin"], weight: ["400", "500", "600", "700"],
 const pixel = Silkscreen({ subsets: ["latin"], weight: ["400", "700"], variable: "--font-pixel" });
 
 export const metadata: Metadata = {
+	metadataBase: new URL("https://portfoliov2-jakeservin.vercel.app"),
 	title: "Jake Servin · Senior Web & iOS Engineer",
 	description:
 		"I build games people can't put down and tools that make life easier. Senior web and iOS engineer behind Simmy and Wasabi.",

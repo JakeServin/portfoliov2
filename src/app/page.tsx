@@ -144,10 +144,10 @@ const TOOLS = [
 const STATS = [
 	{ name: "Web", sub: "React, Next.js, Vite, Tailwind", lvl: 9, yrs: "4 yrs" },
 	{ name: "iOS", sub: "Swift, UIKit, StoreKit, Live Activities", lvl: 8, yrs: "2.5 yrs" },
-	{ name: "Backend", sub: "TypeScript, Node, Prisma, Postgres", lvl: 9, yrs: "2.7 yrs" },
-	{ name: "Real-time", sub: "Socket.IO, Redis, BullMQ", lvl: 8, yrs: "2.5 yrs" },
+	{ name: "Backend", sub: "TypeScript, Node, Prisma, Postgres", lvl: 9, yrs: "4 yrs" },
+	{ name: "Real-time", sub: "Socket.IO, Redis, BullMQ", lvl: 8, yrs: "4 yrs" },
 	{ name: "AI & LLMs", sub: "Claude, Gemini, OpenAI, Grok", lvl: 8, yrs: "2.3 yrs" },
-	{ name: "Payments", sub: "App Store, RevenueCat, Stripe", lvl: 8, yrs: "2.3 yrs" },
+	{ name: "Payments", sub: "App Store, RevenueCat, Stripe", lvl: 8, yrs: "3 yrs" },
 	{ name: "Infra", sub: "AWS, Docker, GitHub Actions", lvl: 6, yrs: "2.5 yrs" },
 ];
 

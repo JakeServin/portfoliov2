@@ -18,9 +18,9 @@ const PLAYERS: { id: PlayerId; sprite: string; name: string; mode: string; brief
 			title: "Senior web + iOS engineer. Four years of shipping, three consumer apps live.",
 			points: [
 				"Led the backend and built the web clients for Simmy (4.8★, #3 in Books on the US App Store) and Wasabi (4.7★ from 10,000+ ratings), and worked across the iOS apps.",
-				"Owns features end to end: TypeScript/Node APIs, native Swift iOS, React web, and the AI layer.",
+				"Own features end to end: TypeScript/Node APIs, native Swift iOS, React web, and the AI layer.",
 				"Shipped a full web port of an iOS game solo in 12 days.",
-				"Based in Los Angeles: open to hybrid in LA or remote. Looking at senior web, iOS and full-stack roles.",
+				"Based in Los Angeles. Works hybrid in LA or remote.",
 			],
 		},
 	},
@@ -30,12 +30,12 @@ const PLAYERS: { id: PlayerId; sprite: string; name: string; mode: string; brief
 		name: "Engineer",
 		mode: "Deep dive: how I build",
 		brief: {
-			title: "Real-time systems, AI pipelines, and enough tests to sleep at night.",
+			title: "Real-time systems, AI pipelines, and tests I can trust.",
 			points: [
 				"Real-time multiplayer on Socket.IO, Redis and BullMQ: lobbies, voting, reconnect recovery, and bot players that keep rooms alive.",
 				"Multi-provider LLM and media generation (Claude, Gemini, OpenAI, Grok) with timeouts, fallbacks and automatic refunds when a job fails.",
-				"I measure before I optimize: I instrumented every AI call so we could see what each feature actually costs, then moved the expensive ones.",
-				"Postgres and Prisma APIs with 1,700+ automated tests, deployed on AWS. The web port alone has about 1,400 tests.",
+				"Measure first: I instrumented every AI call so the team could see what each feature cost, then routed the expensive calls to cheaper models.",
+				"Postgres and Prisma APIs on AWS, with 3,000+ automated tests across the API and web.",
 			],
 		},
 	},
@@ -45,12 +45,12 @@ const PLAYERS: { id: PlayerId; sprite: string; name: string; mode: string; brief
 		name: "Founder",
 		mode: "Co-op: what I'd do on your team",
 		brief: {
-			title: "Give me a fuzzy idea and a small team. I'll come back with something people use.",
+			title: "Hand me a rough idea and a small team, and I'll ship something people use.",
 			points: [
 				"Take a feature from schema to App Store build without a hand-off.",
 				"Plan big work in shippable phases. Simmy Web went from empty repo to payments and analytics in 12 days.",
 				"Build the money loop: subscriptions, in-app economies, paywalls and web checkout.",
-				"Keep an eye on cost and risk: I run security reviews of my own APIs and track what the AI spend buys.",
+				"Watch cost and risk: I security-review my own APIs and track what the AI spend buys.",
 			],
 		},
 	},
@@ -88,7 +88,7 @@ const CARTS = [
 			"The real-time multiplayer engine: lobbies, PIN join, ready-up, voting and disconnect recovery.",
 			"Bot players with human-like timing, so a public room is never empty.",
 			"The AI game layer: personalized prompts and AI judging of text, photo and audio answers.",
-			"Monetization across iOS and web, and the browser client friends join with a PIN.",
+			"Monetization on iOS and web, plus the browser client friends join with a PIN.",
 		],
 		stack: "TypeScript · Socket.IO · Redis · BullMQ · Postgres · Swift · Next.js · Claude · ElevenLabs · LiveKit · Stripe",
 		links: [["App Store", "https://apps.apple.com/us/app/id6737428756"]],
@@ -136,7 +136,7 @@ const TOOLS = [
 		who: "Side project",
 		name: "Calmversation",
 		what: "A reflective AI chat app built for slower, more thoughtful conversations. Next.js, Supabase and the OpenAI API.",
-		saves: "A quieter corner of the internet.",
+		saves: "A chat app that doesn't rush you.",
 		link: "https://calmversation.vercel.app/",
 	},
 ];
@@ -156,18 +156,18 @@ const QUESTS = [
 	{ when: "Oct 2024", title: "Wasabi", text: "Real-time party games with an AI host. 4.7★ from 10,000+ ratings.", c: "var(--wasabi)" },
 	{ when: "Feb 2024", title: "Joined Maestro · TapTap Live", text: "Live trivia for college campuses. Worked across the API, the game server and the iOS app from day one.", c: "var(--taptap)" },
 	{ when: "Oct 2022", title: "EnspireMedia", text: "Full-stack developer on five B2B products for sawmills and field-service companies.", c: "var(--tools)" },
-	{ when: "2022", title: "Press start", text: "Learned full-stack development and went straight into my first engineering job.", c: "var(--gold)" },
+	{ when: "2022", title: "Press start", text: "Taught myself full-stack development and landed my first engineering job the same year.", c: "var(--gold)" },
 ];
 
 const ACHIEVEMENTS = [
 	{ icon: "#3", title: "Top of the charts", text: "Simmy: #3 in Books, US App Store" },
 	{ icon: "★", title: "Crowd favorite", text: "15,000+ App Store ratings at 4.7–4.8★" },
 	{ icon: "4P", title: "Full lobby", text: "Real-time multiplayer with bots, so no room sits empty" },
-	{ icon: "✓", title: "Test pilot", text: "1,700+ API tests and ~1,400 on the web port" },
+	{ icon: "✓", title: "Test pilot", text: "3,000+ automated tests across the API and web" },
 	{ icon: "AI", title: "Model wrangler", text: "Four AI providers in production, routed by cost and quality" },
 	{ icon: "◎", title: "White hat", text: "Runs security reviews and fixes what turns up" },
-	{ icon: "3", title: "Hat trick", text: "Three consumer apps shipped in under three years" },
-	{ icon: "?", title: "Next: your team", text: "Locked. Unlocks when we talk.", locked: true },
+	{ icon: "3", title: "Hat trick", text: "Three consumer apps shipped since 2024" },
+	{ icon: "?", title: "Next level", text: "Loading…", locked: true },
 ];
 
 const KONAMI = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"];
@@ -249,14 +249,14 @@ export default function Home() {
 			<main id="top">
 				<section className="wrap hero">
 					<p className="hero-eyebrow px">
-						<span className="blink" aria-hidden="true" /> Senior web &amp; iOS engineer · Los Angeles · Hybrid or remote
+						<span className="blink" aria-hidden="true" /> Senior web &amp; iOS engineer · Los Angeles
 					</p>
 					<h1>
 						I build <span className="g">games</span> people can&apos;t put down and <span className="t">tools</span> that make life easier.
 					</h1>
 					<p className="lede">
 						Four years of shipping, end to end: the API, the iOS app, the web client and the AI underneath. Most recently I&apos;ve
-						been a core engineer behind Simmy and Wasabi, two AI games with a combined 15,000+ App Store ratings: I led the backend and built the web apps.
+						been a core engineer behind Simmy and Wasabi, two AI games with a combined 15,000+ App Store ratings. I led the backend and built the web apps.
 					</p>
 
 					<div className="select">
@@ -466,7 +466,7 @@ export default function Home() {
 					<h2 id="start-h">
 						Press <span>start</span>.
 					</h2>
-					<p>I&apos;m looking at senior web, iOS and full-stack roles. If you&apos;re building something people play or rely on, let&apos;s talk.</p>
+					<p>If you&apos;re building something people play or rely on, I&apos;d like to hear about it.</p>
 					<div className="mail">
 						<code>{EMAIL}</code>
 						<button className="btn go" onClick={copyEmail} type="button">

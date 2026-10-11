@@ -154,7 +154,7 @@ const STATS = [
 const QUESTS = [
 	{ when: "Aug 2025", title: "Simmy", text: "AI interactive fiction for iOS and the web. Reached #3 in Books on the US App Store.", c: "var(--simmy)", now: true },
 	{ when: "Oct 2024", title: "Wasabi", text: "Real-time party games with an AI host. 4.7★ from 10,000+ ratings.", c: "var(--wasabi)" },
-	{ when: "Feb 2024", title: "Joined Maestro · TapTap Live", text: "Live trivia for college campuses. Started on the API and the game server, then moved into iOS.", c: "var(--taptap)" },
+	{ when: "Feb 2024", title: "Joined Maestro · TapTap Live", text: "Live trivia for college campuses. Worked across the API, the game server and the iOS app from day one.", c: "var(--taptap)" },
 	{ when: "Oct 2022", title: "EnspireMedia", text: "Full-stack developer on five B2B products for sawmills and field-service companies.", c: "var(--tools)" },
 	{ when: "2022", title: "Press start", text: "Learned full-stack development and went straight into my first engineering job.", c: "var(--gold)" },
 ];
